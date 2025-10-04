@@ -7,15 +7,13 @@ int main(int argc, char *argv[]) {
 	
 	int x;
 	
-	printf("Input an interger :");
+	printf("Input an integer :");
 	scanf("%d", &x);
 	
 	if (x>0)
-		printf("양수 입니다.\n");
-	else if (x<0)
-		printf("음수 입니다.\n");
+		printf("absolute is %i.\n", x);
 	else
-		printf("0입니다.\n");
+		printf("absolute is %i.\n", -x);
 		
 	system("PAUSE");
 	return 0;
